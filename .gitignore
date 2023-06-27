@@ -1,10 +1,12 @@
 *
 !README.md
-!conda
-!.bashrc
-!.bash_aliases
 !.gitignore
+
+!.aliases
+!.bashrc
 !.zshrc
+
+!conda
 !tmux/
 !nvim/
 !kitty/

@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source $HOME/.bash_aliases
+source $HOME/.config/.aliases
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba init' !!
