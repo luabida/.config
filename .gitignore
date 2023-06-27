@@ -4,6 +4,6 @@
 !.bashrc
 !.bash_aliases
 !.gitignore
-!.tmux.conf
-!nvim
-!kitty
+!tmux/
+!nvim/
+!kitty/
