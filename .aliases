@@ -4,6 +4,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias rr='rm -rfI'
+
 
 alias m="micromamba"
 alias actv="micromamba activate"
