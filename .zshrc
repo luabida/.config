@@ -1,5 +1,6 @@
 source "$HOME/.cargo/env"
 
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -21,8 +22,7 @@ else
     if [ -f "/home/bida/micromamba/etc/profile.d/micromamba.sh" ]; then
         . "/home/bida/micromamba/etc/profile.d/micromamba.sh"
     else
-        export  PATH="/home/bida/micromamba/bin:$PATH"  # extra space after export prevents interfer
-ence from conda init
+        export  PATH="/home/bida/micromamba/bin:$PATH"
     fi
 fi
 unset __mamba_setup

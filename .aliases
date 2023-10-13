@@ -10,7 +10,10 @@ alias rr='rm -rfI'
 alias m="micromamba"
 alias actv="micromamba activate"
 alias i="micromamba install -y --channel conda-forge"
+
+alias n='nvim'
 alias vim='nvim'
+
 
 
 alias :q="exit"
@@ -18,3 +21,4 @@ alias :q="exit"
 # alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 
 alias ps="docker ps --format \"{{.ID}} \\n{{.Names}}\\t\\t| {{.Command}}\\n{{.Ports}} \\nStatus: {{.Status}}\\t| {{.RunningFor}}\\nSize: {{.Size}}\\n\""
+alias get_ip="docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"
