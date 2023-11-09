@@ -1,7 +1,7 @@
 ```sh
 ln -s ~/.config/.bashrc ~/.bashrc
-ls -s ~/.config/.zshrc ~/.zshrc
-ls -s ~/.config/tmux/tmux.conf ~/.tmux.conf
+ln -s ~/.config/.zshrc ~/.zshrc
+ln -s ~/.config/tmux/tmux.conf ~/.tmux.conf
 ```
 
 # dotconfig
